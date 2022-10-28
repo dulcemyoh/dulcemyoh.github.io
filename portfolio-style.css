@@ -1,0 +1,15 @@
+* {
+	background-color: rgb(238, 249, 255);
+    font-family:Verdana, Georgia, serif;
+}
+h1{font-family:Tahoma, Georgia, serif;
+
+    text-align:center}
+h2{
+    color:rgb(114, 23, 156);
+}
+p{
+    margin:0px 10px 0px;
+}
+footer{color:rgb(164, 191, 251);
+    text-align:center}
