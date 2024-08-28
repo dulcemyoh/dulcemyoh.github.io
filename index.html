@@ -73,6 +73,27 @@
             margin-bottom: 20px;
         }
 
+        .experience-item {
+            margin-bottom: 20px;
+        }
+
+        .experience-item h3 {
+            font-size: 1.5em;
+            color: #d49ac3;
+            margin-bottom: 5px;
+        }
+
+        .experience-item h4 {
+            font-size: 1.2em;
+            color: #6d6a75;
+            margin-bottom: 5px;
+        }
+
+        .experience-item p {
+            font-size: 1em;
+            color: #6d6a75;
+        }
+
         /* Projects Section */
         #projects h2 {
             font-size: 2em;
@@ -155,29 +176,56 @@
 
     <section id="about" class="container">
         <h1>Melody Chu</h1>
-        <p>Mechanical Engineering and Design Student at Carnegie Mellon University.</p>
+        <p>Mechanical Engineering and Design Student at Carnegie Mellon University with a passion for creating innovative solutions through design and engineering.</p>
     </section>
 
     <section id="experience" class="container">
         <h2>Experience</h2>
-        <!-- Experience items will go here -->
+        <div class="experience-item">
+            <h3>Mechanical Design Intern</h3>
+            <h4>Bimotal, Inc., Berkeley, CA | May 2023 - Aug 2023</h4>
+            <p>Led battery pack redesign exploration using UX research, hand sketches, and CAD, ensuring compliance with brand aesthetics and technical specifications. Conceptualized, machined, and assembled NVH test rig to evaluate sound levels at different torques and speeds.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Student Researcher</h3>
+            <h4>Carnegie Mellon Design Research Collective, Pittsburgh, PA | Apr 2022 - Sep 2022</h4>
+            <p>Adapted Unity GUI for generalized RL robotic agents in a simulated manufacturing environment using C#.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Student Researcher</h3>
+            <h4>Center for Atmospheric Particle Studies Research Lab, Pittsburgh, PA | Jun 2022 - Aug 2022</h4>
+            <p>Integrated motors and electronics into a novel machine automating the dispensing and detection of carbon filters. Fabricated hardware components using CAD, 3D-printers, laser-cutters, and handheld tools.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Electromechanical Systems Engineering Intern</h3>
+            <h4>NASA Goddard Space Flight Center, Greenbelt, MD | Nov 2020 - Aug 2021</h4>
+            <p>Collaborated with interns to develop obstacle-avoidance algorithms using Q-learning in MATLAB robot simulation. Presented projects at NASA Intern Symposium and for various high school engineering programs.</p>
+        </div>
     </section>
 
     <section id="projects" class="container">
         <h2>Projects</h2>
         <div class="project">
-            <img src="project1.jpg" alt="Project 1">
+            <img src="bicycle-crank.jpg" alt="Bicycle Crank Under Load Project">
             <div class="project-info">
-                <h3>Project Title</h3>
-                <p>Brief description of the project goes here.</p>
+                <h3>Bicycle Crank Under Load Project</h3>
+                <p>Designed a 3.2g PLA bike crank in a team, excelling in all metrics: it broke with a minimal margin of error from the target failure load and was significantly lighter than the target mass. Calculated force and stress/strain by-hand, compared with FEA, and iterated through 3D-printed and laser-cut prototypes.</p>
             </div>
         </div>
-        <!-- More projects can be added here using the same template -->
+        <div class="project">
+            <img src="pet-simulator.jpg" alt="Pet Simulator">
+            <div class="project-info">
+                <h3>Pet Simulator</h3>
+                <p>Designed all visual and graphical components and assisted with programming in a team that won 1st Place at Hack-112 Hackathon.</p>
+            </div>
+        </div>
     </section>
 
     <section id="contact" class="container">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:mmchu@andrew.cmu.edu">mmchu@andrew.cmu.edu</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/melody-m-chu">linkedin.com/in/melody-m-chu</a></p>
+        <p>Portfolio: <a href="https://melodymchu.wixsite.com/site">melodymchu.wixsite.com/site</a></p>
     </section>
 
     <script>
