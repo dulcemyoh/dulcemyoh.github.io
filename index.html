@@ -99,13 +99,13 @@
             bottom: -10px;
         }
 
-        .experience, .projects {
+        .experience, .projects, .project-overview {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
         }
 
-        .experience-item, .project-item {
+        .experience-item, .project-item, .project-overview-item {
             background: #fff;
             padding: 20px;
             margin: 10px 0;
@@ -117,11 +117,11 @@
             animation: slideIn 1s;
         }
 
-        .experience-item:hover, .project-item:hover {
+        .experience-item:hover, .project-item:hover, .project-overview-item:hover {
             box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
         }
 
-        .experience-item::before, .project-item::before {
+        .experience-item::before, .project-item::before, .project-overview-item::before {
             content: '';
             position: absolute;
             top: 0;
@@ -132,7 +132,7 @@
             transition: width 0.3s ease-in-out;
         }
 
-        .experience-item:hover::before, .project-item:hover::before {
+        .experience-item:hover::before, .project-item:hover::before, .project-overview-item:hover::before {
             width: 100%;
         }
 
@@ -167,7 +167,7 @@
                 margin: 10px 0;
             }
 
-            .experience-item, .project-item {
+            .experience-item, .project-item, .project-overview-item {
                 width: 100%;
                 margin: 10px 0;
             }
@@ -182,14 +182,14 @@
         }
 
         /* Project Template Styles */
-        .project-item img {
+        .project-item img, .project-overview-item img {
             width: 100%;
             height: auto;
             margin-bottom: 15px;
             border-radius: 5px;
         }
 
-        .project-item h3 {
+        .project-item h3, .project-overview-item h3 {
             margin: 10px 0;
         }
 
@@ -277,15 +277,4 @@
                 <p><strong>Berkeley, CA | May 2023 - Aug 2023</strong></p>
                 <ul>
                     <li>Led battery pack redesign exploration using UX research, hand sketches, and CAD, complying with brand/market aesthetics, frame compatibility, and battery cell dimensions, tolerances, and other specifications.</li>
-                    <li>Conceptualized, machined, and assembled NVH test rig to find unit’s sound levels at different torques and speeds.</li>
-                </ul>
-            </div>
-            <div class="experience-item">
-                <h3>Student Researcher - CMU Design Research Collective</h3>
-                <p><strong>Pittsburgh, PA | Apr 2022 - Sep 2022</strong></p>
-                <ul>
-                    <li>Adapted Unity GUI for generalized RL robotic agents in simulated manufacturing environment (C#).</li>
-                </ul>
-            </div>
-            <div class="experience-item">
-                <h3>Student Research
+                    <li>Conceptualized, machined,
